@@ -3,9 +3,9 @@
   width: 96px;
 
   &__icon {
-    width: 16px;
-    height: 16px;
-    margin-right: 4px;
+    width: $star-size;
+    height: $star-size;
+    margin-right: $star-margin;
 
     line-height: 16px;
 
