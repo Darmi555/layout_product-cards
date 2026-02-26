@@ -1,4 +1,4 @@
-@use 'variables';
+@use 'variables' as *;
 @use 'card';
 @use 'stars';
 
@@ -9,5 +9,5 @@
 }
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: $font-primary;
 }

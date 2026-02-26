@@ -1,8 +1,8 @@
 @use 'variables' as *;
 
 .card {
-  width: 200px;
-  padding: 0 16px;
+  width: $card-width;
+  padding: 0 $card-padding;
   border: 1px solid $color-border;
   border-radius: $border-radius;
 
@@ -13,10 +13,10 @@
     align-items: center;
     justify-content: center;
 
-    width: 160px;
-    height: 134px;
+    width: $computer-width;
+    height: $computer-height;
     margin: 0 auto;
-    margin-top: 32px;
+    margin-top: $computer-margin;
   }
 
   &__imac {
@@ -26,18 +26,18 @@
   }
 
   &__productname {
-    margin-top: 40px;
+    margin-top: $productname-margin;
 
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 18px;
+    font-size: $normal-fontsize;
+    font-weight: $normal-fontweight;
+    line-height: $normal-lineheight;
     color: $color-productname;
   }
 
   &__productcode {
-    margin-top: 4px;
-    font-size: 10px;
-    line-height: 14px;
+    margin-top: $productcode-margin;
+    font-size: $small-fontsize;
+    line-height: $small-lineheight;
     opacity: 50%;
   }
 
@@ -45,28 +45,28 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 16px;
+    margin-top: $rating-margin;
   }
 
   &__reviews-text {
-    font-size: 10px;
-    line-height: 14px;
+    font-size: $small-fontsize;
+    line-height: $small-lineheight;
   }
 
   &__price {
     display: flex;
     justify-content: space-between;
-    margin-top: 24px;
-    line-height: 18px;
+    margin-top: $price-margin;
+    line-height: $normal-lineheight;
 
     &-label {
-      font-size: 12px;
+      font-size: $normal-fontsize;
       opacity: 50%;
     }
 
     &-value {
-      font-size: 16px;
-      font-weight: 700;
+      font-size: $extranormall-fontsize;
+      font-weight: $large-fontweight;
     }
   }
 
@@ -75,14 +75,14 @@
     align-items: center;
     justify-content: center;
 
-    height: 40px;
-    margin-top: 16px;
-    margin-bottom: 16px;
+    height: $button-height;
+    margin-top: $button-margin;
+    margin-bottom: $button-margin;
     border: 1px solid $color-blue;
     border-radius: $border-radius;
 
-    font-size: 14px;
-    font-weight: 700;
+    font-size: $button-fontsize;
+    font-weight: $large-fontweight;
     color: $color-white;
     text-decoration: none;
     text-transform: uppercase;
